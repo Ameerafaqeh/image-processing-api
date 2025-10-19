@@ -1,0 +1,33 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jasmine",
+    "lint": "eslint 'src/**/*.ts'",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jasmine": "^4.6.5",
+    "@types/node": "^24.3.1",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^9.34.0",
+    "jasmine": "^4.6.0",
+    "jasmine-ts": "^0.4.0",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

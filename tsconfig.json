@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // Target environment
+    "target": "ES6",
+    "module": "commonjs",
+    // File structure
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // Type checking options
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "jasmine"
+    ],
+    // Source maps for easier debugging
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
